@@ -1,0 +1,271 @@
+/******   artesanias.css******/
+body{
+	font-family: Arial, cursive;
+	font-size: 16px;
+	}
+section{
+	margin-top: 50px;
+}
+
+footer {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 2px;
+	font-weight: bolder;
+	color: #f7f7f7;
+	background-color: green;
+}	
+
+header {
+	/*background-color: #604214;*/
+	background-color: rgb(210,190,45);
+	text-align: right;
+}
+
+header h1{
+	color: #f7f7f7;
+	float: left;
+	font-size: 1.6em;
+	display: block;
+	margin: 7px 80px 0px 50px;
+	padding: 0px;
+}
+
+header figure{
+	float: left;
+	margin-left: 80px;
+}
+header figure img{
+	width: 100px;
+	height: 110px;
+	border-radius: 50%;
+}
+header nav ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	list-style: none;
+}
+header nav ul li{
+	height: 35px;
+	margin-top: 10px;
+	width: 100%;
+	display: inline-block;
+}
+header nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #f7f7f7;
+	padding: 15px 25px;
+}
+
+section article.contenido{
+	border-width: 2px;
+	border-style: solid;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	border-radius: 0px 0px 15px 15px;
+	margin: 50px 0px 20px 10%;
+	width: 85%;
+	font-size: 1.2em;
+	
+	box-shadow: 0px 0px 30px #f7f7f7;
+}
+section article.contenido figure{
+	float: left;
+	margin-top: -50px;
+	margin-left: -30px;
+}
+	
+section article.contenido figure img{
+	border-radius: 35%;
+	border-width: 5px;
+	border-style: solid;
+	width: 180px;
+	height: 140px;
+}
+
+section article.contenido div{
+	width: 90%;
+	margin: 30px 4% 10px 5%;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding-top: 20px;
+	font-size: 0.9em;
+	border-radius: 15px;
+}
+
+section article.contenido div span{
+	position: absolute;
+	top: -15px;
+	left: 10px;
+	line-height: 20px;
+	border-radius: 15px;
+	background-color: yellow;
+	padding: 3px 10px;
+}
+
+section article.contenido div ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+section article.contenido div ul li{
+	font-weight: bolder;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 5px 3%;
+	width: 26%;
+}
+section article.contenido h2{
+	padding:0px;
+	text-align: right;
+	margin: 15px 20px 0px 165px;
+	font-size: 1.2em;
+}
+
+section article.contenido p{
+	font-size:0.8em;
+	text-align: justify;
+	margin: 15px 10px 5px 30px;
+}
+
+section article.contenido span.tipo{
+	position: absolute;
+	border-width: 2px;
+	border-style: solid;
+	top: -38px;
+	right: -2px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 10px;
+	border-radius: 15px 15px 0px 0px;
+	font-weight: bolder;
+	color: #f7f7f7;
+}
+
+/***************************************
+**********COLORES TRADICIONAL***********
+****************************************/
+section article.tradicional,
+section article.tradicional figure img,
+section article.tradicional div,
+section article.tradicional span.tipo{
+	border-color: #082E08;
+}
+
+section article.tradicional h2{
+	color: #154419;
+}
+section article.tradicional span.tipo,
+section article.tradicional div,
+section article.tradicional div span{
+	background-color: #154419;
+}
+
+section article.tradicional p{
+	color: #3E7242;
+}
+
+section article.tradicional{
+	background-color: #C0EE90;
+}
+
+section article.tradicional div span,
+section article.tradicional div ul li{
+	color: #9CD95C;
+}
+
+/***************************************
+**********COLORES BARBADA***********
+****************************************/
+section article.barbada,
+section article.barbada figure img,
+section article.barbada div,
+section article.barbada span.tipo{
+	border-color: rgb(90,45,20);
+}
+
+section article.barbada h2{
+	color: rgb(90,45,20);
+}
+section article.barbada span.tipo,
+section article.barbada div,
+section article.barbada div span{
+	background-color: rgb(90,45,20);
+}
+
+section article.barbada p{
+	color: rgb(90,45,20);
+}
+
+section article.barbada{
+	background-color: rgb(225,175,100);
+}
+
+section article.barbada div span,
+section article.barbada div ul li{
+	color: rgb(240,225,175);
+}
+
+/***************************************
+**********COLORES DIVERSAS***********
+****************************************/
+section article.diversas,
+section article.diversas figure img,
+section article.diversas div,
+section article.diversas span.tipo{
+	border-color: rgb(180,0,0);
+}
+
+section article.diversas h2{
+	color: rgb(180,0,0);
+}
+section article.diversas span.tipo,
+section article.diversas div,
+section article.diversas div span{
+	background-color: rgb(180,0,0);
+}
+
+section article.diversas p{
+	color: rgb(180,0,0);
+}
+
+section article.diversas{
+	background-color: rgb(255,109,109);
+}
+
+section article.diversas div span,
+section article.diversas div ul li{
+	color: rgb(255,170,170);
+}
+/*******************************************/
+
+/*@media screen (min-width: 480px){
+	header nav ul li{
+	width: 22%;
+	}
+}*/
+
+@media screen and (min-width: 767px){
+	header nav ul li{
+		width:8%;
+	}
+	
+	section article.contenido{
+		width: 40%;
+		margin: 50px 3% 20px 6%;
+	}
+}
+	
+@media screen and (min-width: 991px){
+	section article.contenido{
+		width: 26%;
+		margin: 50px 1% 20px 5%;
+		}
+}
+	

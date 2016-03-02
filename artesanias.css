@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, cursive;
+	font-size: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+#titulo {
+  position: relative;
+  border: 2px solid black;
+  width: 7em;  
+  float: right;
+  text-align: center;    
+  /*font-family: Helvetica;*/
+  color: white;
+}
+.campo1 { 
+		background-color: green; }
+.campo2 {
+		background-color: brown; }
+.campo3 { 
+		background-color: blue; }
+
+/*******DISEÑO RESPONSIVE*********/
+.row {
+  width: 100%;    
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {      
+    float: left;
+    border: 2px solid black;
+    background-color: rgb(65,160,110);    
+    width: 31%;
+    margin-right: 2%;
+            
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-1 {
+    float: left;    
+    border: 2px solid black;
+    background-color: rgb(150,120,75);
+    margin-right: 2%;
+    margin-bottom: 4%;
+  
+  }  
+  .col-md-1 {
+      width: 97%
+  }
+  .col-md-6 {      
+    width: 47%;
+  }
+  
+}
+
+@media (max-width:767px) {
+    .col-lg-4, .col-md-1, .col-md-6 {
+        width: 98%;
+        float: left;    
+        border: 2px solid black;
+        background-color: rgb(95,110,130);
+        margin-right: 2%;
+        margin-bottom: 5%;
+    }
+}
